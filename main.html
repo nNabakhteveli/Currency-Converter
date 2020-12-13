@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <form name="form">
+        <table style="border: 1px solid black;">
+            <tr>
+                <th>ქართული ლარი(₾)</th>
+                <th>
+                    <input id="InputName" type="text" placeholder="თანხის რაოდენობა">
+                </th>
+                <th>
+                    <input type="button" value="კონვერტაცია" onClick="process()" />
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <div>აშშ დოლარი($)</div>        
+                </th>
+                <th id="output"></th>
+                <th>კურსი - 3.3200</th>
+            </tr>
+            <tr>
+                <th>
+                    <div>ევრო(€)</div>        
+                </th>
+                <th id="secondOutput"></th>
+                <th>კურსი - 4.0480</th>
+            </tr>
+            <br>
+        </table>
+    </form>
+</body>
+</html>
