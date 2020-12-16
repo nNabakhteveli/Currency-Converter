@@ -1,5 +1,16 @@
+let dollarCurreny = 3.2811;
+let euroCurrency = 4.0043;
+let rubCurrency = 0.0447;
+let tryCurrency = 0.421;
+
 function process() {
-    var input = Number(document.form.InputName.value);
-    document.getElementById('output').innerHTML = "$" + input / 3.3200;
-    document.getElementById('secondOutput').innerHTML = "€" + input / 4.0480;
+    let input = Number(document.form.InputName.value);
+    // Dollar($) 
+    document.getElementById('USDoutput').innerHTML = "$" + input / dollarCurreny;
+    // Euro(€)
+    document.getElementById('EUROoutput').innerHTML = "€" + input / euroCurrency;
+    // RUB(₽)
+    document.getElementById('RUBoutput').innerHTML = "₽" + input / rubCurrency;
+    // TRY(₺)
+    document.getElementById('TRYoutput').innerHTML = "₺" + input / tryCurrency;
 }
