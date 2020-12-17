@@ -5,56 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currency Converter</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <script src="./script.js"></script>
 </head>
 
 <body>
-    <form name="form">
-        <table style="border: 1px solid black;">
-            <!-- GEL - Georgian Lari -->
-            <tr>
-                <th>ქართული ლარი(₾)</th>
-                <th>
-                    <input id="InputName" type="text" placeholder="თანხის რაოდენობა">
-                </th>
-                <th>
-                    <input type="button" value="კონვერტაცია" onClick="process()" />
-                </th>
-            </tr>
-            <!-- USD - American Dollar -->
-            <tr>
-                <th>
-                    <div>აშშ დოლარი - USD($)</div>        
-                </th>
-                <th id="USDoutput"></th>
-                <th>კურსი - 3.2811</th>
-            </tr>
-            <!-- EURO -->
-            <tr>
-                <th>
-                    <div>ევრო - EURO(€)</div>        
-                </th>
-                <th id="EUROoutput"></th>
-                <th>კურსი - 4.0043</th>
-            </tr>
-            <!-- RUB - Russian Ruble -->
-            <tr>
-                <th>
-                    <div>რუსული რუბლი - RUB(₽)</div>        
-                </th>
-                <th id="RUBoutput"></th>
-                <th>კურსი - 0.0447</th>
-            </tr>
-
-            <tr>
-                <th>
-                    <div>თურქული ლირა - TRY(₺)</div>        
-                </th>
-                <th id="TRYoutput"></th>
-                <th>კურსი - 0.421</th>
-            </tr>
-            <br>
-        </table>
-    </form>
+    <div class="container" align="center">
+        <form name="form">
+            <table style="border: 1px solid black;">
+                <!-- GEL - Georgian Lari -->
+                <tr>
+                    <th>ქართული ლარი(₾)</th>
+                    <th>
+                        <input id="InputName" type="text" placeholder="თანხის რაოდენობა">
+                    </th>
+                    <th>
+                        <input type="button" value="კონვერტაცია" onClick="process()" />
+                    </th>
+                </tr>
+                <!-- USD - American Dollar -->
+                <tr>
+                    <th>
+                        <div>აშშ დოლარი - USD($)</div>        
+                    </th>
+                    <th id="USDoutput"></th>
+                    <th>კურსი - 3.2811</th>
+                </tr>
+                <!-- EURO -->
+                <tr>
+                    <th>
+                        <div>ევრო - EURO(€)</div>        
+                    </th>
+                    <th id="EUROoutput"></th>
+                    <th>კურსი - 4.0043</th>
+                </tr>
+                <!-- RUB - Russian Ruble -->
+                <tr>
+                    <th>
+                        <div>რუსული რუბლი - RUB(₽)</div>        
+                    </th>
+                    <th id="RUBoutput"></th>
+                    <th>კურსი - 0.0447</th>
+                </tr>
+                <!-- TRY - Turkish Lira -->
+                <tr>
+                    <th>
+                        <div>თურქული ლირა - TRY(₺)</div>        
+                    </th>
+                    <th id="TRYoutput"></th>
+                    <th>კურსი - 0.421</th>
+                </tr>
+                <br>
+            </table>
+        </form>
+    </div>
 </body>
 </html>
