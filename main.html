@@ -6,11 +6,13 @@
     <title>Currency Converter</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
     <script src="./script.js"></script>
 </head>
 
 <body>
     <div class="container" align="center">
+        <h1 class="header">Currency Converter / ვალუტის კონვერტორი</h1>
         <form name="form">
             <table style="border: 1px solid black;">
                 <!-- GEL - Georgian Lari -->
@@ -20,7 +22,7 @@
                         <input id="InputName" type="text" placeholder="თანხის რაოდენობა">
                     </th>
                     <th>
-                        <input type="button" value="კონვერტაცია" onClick="process()" />
+                        <input class="convert-button" type="button" value="კონვერტაცია" onClick="process()" />
                     </th>
                 </tr>
                 <!-- USD - American Dollar -->
