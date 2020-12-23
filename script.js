@@ -7,11 +7,25 @@ let tryCurrency = 0.421;
 function process() {
     let input = Number(document.form.InputName.value);
     // Dollar($) 
-    document.getElementById('USDoutput').innerHTML = "$" + input / dollarCurrency;
+    let usd = document.getElementById('USDoutput');
+    usd.innerHTML = "$" + (input / dollarCurrency).toFixed(2);
+
     // Euro(€)
-    document.getElementById('EUROoutput').innerHTML = "€" + input / euroCurrency;
+    let euro = document.getElementById('EUROoutput');
+    euro.innerHTML = "€" + (input / euroCurrency).toFixed(2);
     // RUB(₽)
-    document.getElementById('RUBoutput').innerHTML = "₽" + input / rubCurrency;
+    let rub = document.getElementById('RUBoutput');
+    rub.innerHTML = "₽" + (input / rubCurrency).toFixed(2);
     // TRY(₺)
-    document.getElementById('TRYoutput').innerHTML = "₺" + input / tryCurrency;
+    let ttry = document.getElementById('TRYoutput');
+    ttry.innerHTML = "₺" + (input / tryCurrency).toFixed(2);
+
+    if(typeof input != Number){
+        alert("შეიყვანეთ თანხის ვალიდური რაოდენობა");
+        usd.innerHTML = ""; 
+        euro.innerHTML = ""; 
+        rub.innerHTML = ""; 
+        ttry.innerHTML = ""; 
+        window.location.reload();
+    }
 }
