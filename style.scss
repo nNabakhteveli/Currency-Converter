@@ -34,3 +34,20 @@ table, th, td {
         color: black;
     }
 }
+
+#clearButton {
+    font-size: 21px;
+    margin-left: -435px;
+    border: $lighterRedish;
+    background: $lightRedish;
+    margin-top: 5px;
+    border-radius: 2px 2px 15px 2px;
+    -moz-border-radius: 2px 2px 15px 2px;
+    -webkit-border-radius: 2px 2px 15px 2px;
+    padding: 9px;
+    transition: all 0.3s ease; 
+    &:hover{
+        background: transparent;
+        color: $lightRedish;
+    }
+}

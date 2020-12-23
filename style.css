@@ -30,4 +30,23 @@ table, th, td {
   border-color: #FF6A3D;
   color: black;
 }
+
+#clearButton {
+  font-size: 21px;
+  margin-left: -435px;
+  border: #FF6A3D;
+  background: #FF4838;
+  margin-top: 5px;
+  border-radius: 2px 2px 15px 2px;
+  -moz-border-radius: 2px 2px 15px 2px;
+  -webkit-border-radius: 2px 2px 15px 2px;
+  padding: 9px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#clearButton:hover {
+  background: transparent;
+  color: #FF4838;
+}
 /*# sourceMappingURL=style.css.map */
