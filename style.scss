@@ -15,9 +15,13 @@ $lighterRedish: #FF6A3D;
 }
 
 table, th, td {
-    border: 1.5px solid $lightRedish;
+    padding: 2px;
     font-family: 'PT Sans', sans-serif;
+}
 
+th, td{
+    padding: 8px;
+    border: 1.5px solid $lightRedish;   
 }
 
 .container {
@@ -27,7 +31,9 @@ table, th, td {
 
 .convert-button {
     border-radius: 3px;
-    transition: all 500ms ease; 
+    transition: all 500ms ease;
+    width: 100%;
+    height: auto; 
     &:hover{
         background-color: $lightRedish;
         border-color: $lighterRedish;
@@ -37,7 +43,7 @@ table, th, td {
 
 #clearButton {
     font-size: 21px;
-    margin-left: -435px;
+    margin-left: -530px;
     border: $lighterRedish;
     background: $lightRedish;
     margin-top: 5px;

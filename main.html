@@ -14,53 +14,53 @@
     <div class="container" align="center">
         <h1 class="header">Currency Converter / ვალუტის კონვერტორი</h1>
         <form name="form">
-            <table style="border: 1px solid black;">
+            <table style="border: 1.5px solid #FF4838;">
                 <!-- GEL - Georgian Lari -->
                 <tr>
-                    <th>ქართული ლარი(₾)</th>
+                    <th>Georgian Lari(₾)</th>
                     <th>
-                        <input id="InputName" type="text" placeholder="თანხის რაოდენობა">
+                        <input id="InputName" type="text" placeholder="Amount of money">
                     </th>
                     <th>
-                        <input class="convert-button" type="button" value="კონვერტაცია" onClick="process()" />
+                        <input class="convert-button" type="button" value="Convert" onClick="process()" />
                     </th>
                 </tr>
                 <!-- USD - American Dollar -->
                 <tr>
                     <th>
-                        <div>აშშ დოლარი - USD($)</div>        
+                        <div>USD Dollar - USD($)</div>        
                     </th>
                     <th id="USDoutput"></th>
-                    <th>კურსი - 3.2811</th>
+                    <th>Exchange rate - 3.2811</th>
                 </tr>
                 <!-- EURO -->
                 <tr>
                     <th>
-                        <div>ევრო - EURO(€)</div>        
+                        <div>EURO - EUR(€)</div>        
                     </th>
                     <th id="EUROoutput"></th>
-                    <th>კურსი - 4.0043</th>
+                    <th>Exchange rate - 4.0043</th>
                 </tr>
                 <!-- RUB - Russian Ruble -->
                 <tr>
                     <th>
-                        <div>რუსული რუბლი - RUB(₽)</div>        
+                        <div>Russian Ruble - RUB(₽)</div>        
                     </th>
                     <th id="RUBoutput"></th>
-                    <th>კურსი - 0.0447</th>
+                    <th>Exchange rate - 0.0447</th>
                 </tr>
                 <!-- TRY - Turkish Lira -->
                 <tr>
                     <th>
-                        <div>თურქული ლირა - TRY(₺)</div>        
+                        <div>Turkish Lira - TRY(₺)</div>        
                     </th>
                     <th id="TRYoutput"></th>
-                    <th>კურსი - 0.421</th>
+                    <th>Exchange rate - 0.421</th>
                 </tr>
                 <br>
             </table>
         </form>
-        <button id="clearButton">გასუფთავება</button>
+        <button id="clearButton">Clear</button>
     </div>
 </body>
 </html>

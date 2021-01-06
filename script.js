@@ -3,7 +3,8 @@ let euroCurrency = 4.0043;
 let rubCurrency = 0.0447;
 let tryCurrency = 0.421;
 
-function process() {    
+function process() {
+    // For Dollar($) 
     let input = Number(document.form.InputName.value);
     let usd = document.getElementById('USDoutput');
     usd.innerHTML = "$" + (input / dollarCurrency).toFixed(2);

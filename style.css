@@ -10,8 +10,13 @@
 }
 
 table, th, td {
-  border: 1.5px solid #FF4838;
+  padding: 2px;
   font-family: 'PT Sans', sans-serif;
+}
+
+th, td {
+  padding: 8px;
+  border: 1.5px solid #FF4838;
 }
 
 .container {
@@ -23,6 +28,8 @@ table, th, td {
   border-radius: 3px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
+  width: 100%;
+  height: auto;
 }
 
 .convert-button:hover {
@@ -33,7 +40,7 @@ table, th, td {
 
 #clearButton {
   font-size: 21px;
-  margin-left: -435px;
+  margin-left: -530px;
   border: #FF6A3D;
   background: #FF4838;
   margin-top: 5px;
