@@ -17,6 +17,12 @@ table, th, td {
 th, td {
   padding: 8px;
   border: 1.5px solid #FF4838;
+  border-left: none;
+  border-top: none;
+}
+
+.form {
+  border: 1.5px solid #FF4838;
 }
 
 .container {
@@ -38,9 +44,14 @@ th, td {
   color: black;
 }
 
+.turkish-lira {
+  border-bottom: none;
+}
+
 #clearButton {
-  font-size: 21px;
+  font-size: 20px;
   margin-left: -530px;
+  width: 110px;
   border: #FF6A3D;
   background: #FF4838;
   margin-top: 5px;

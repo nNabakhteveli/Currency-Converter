@@ -22,12 +22,19 @@ table, th, td {
 th, td{
     padding: 8px;
     border: 1.5px solid $lightRedish;   
+    border-left: none;
+    border-top: none;
+}
+
+.form {
+    border: 1.5px solid #FF4838;
 }
 
 .container {
     margin-top: 100px;
     border: none;
 }
+
 
 .convert-button {
     border-radius: 3px;
@@ -40,10 +47,14 @@ th, td{
         color: black;
     }
 }
+.turkish-lira{
+    border-bottom: none;
+}
 
 #clearButton {
-    font-size: 21px;
+    font-size: 20px;
     margin-left: -530px;
+    width: 110px;
     border: $lighterRedish;
     background: $lightRedish;
     margin-top: 5px;
